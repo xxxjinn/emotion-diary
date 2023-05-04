@@ -77,7 +77,7 @@ header > div {
 
 header .head_text {
   width: 50%;
-  font-size: 25px;
+  font-size: 20px;
   justify-content: center;
 }
 
@@ -288,4 +288,75 @@ header button {
 .EmotionItem_on_5 {
   background-color: #fd565f;
   color: white;
+}
+
+/* Diary */
+.diaryPage {
+}
+
+.diaryPage section {
+  width: 100%;
+  margin-bottom: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.diaryPage h4 {
+  font-size: 22px;
+  font-size: bold;
+}
+
+.diaryPage .diary_img_wrapper {
+  background-color: #ececec;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.diaryPage .diary_img_wrapper_1 {
+  background-color: #64c964;
+}
+
+.diaryPage .diary_img_wrapper_2 {
+  background-color: #9dd772;
+}
+
+.diaryPage .diary_img_wrapper_3 {
+  background-color: #fdce17;
+}
+
+.diaryPage .diary_img_wrapper_4 {
+  background-color: #fd8446;
+}
+
+.diaryPage .diary_img_wrapper_5 {
+  background-color: #fd565f;
+}
+
+.diaryPage .emotion_descript {
+  font-size: 25px;
+  color: white;
+}
+
+.diaryPage .diary_content_wrapper {
+  width: 100%;
+  background-color: #ececec;
+  border-radius: 5px;
+  /*줄넘김 할 때 단어를 쪼개서 넘기지 않는 형태로*/
+  word-break: keep-all;
+}
+
+.diaryPage .diary_content_wrapper p {
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2.5;
 }
